@@ -1,7 +1,7 @@
 const buttons = document.querySelectorAll("button");
 const screen = document.querySelector(".screen");
-const error = document.querySelector(".error");
-const copy = document.querySelector(".copy");
+const error = document.getElementById("error");
+const copy = document.getElementById("copy");
 
 const symbols = [
   "+",
@@ -90,7 +90,7 @@ function handleSymbol(symbol) {
       if (value.toString().length > 12 && value > 1e11) {
         buffer = value.toExponential(5);
       } else if (value.toString().length > 12) {
-        buffer = value.toPrecision(2);
+        buffer = value.toFixed(2);
       } else {
         buffer = value;
       }

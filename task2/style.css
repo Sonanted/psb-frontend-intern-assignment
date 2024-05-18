@@ -1,7 +1,6 @@
 body {
   background-color: #edf2fb;
   font-family: "Roboto", sans-serif;
-  /* color: #caf0f8; */
 }
 
 .hidden {
@@ -29,6 +28,7 @@ button {
   background-color: #abc4ff;
   font-size: 60px;
   cursor: pointer;
+  color: #03045e;
 }
 
 .screen {
@@ -42,16 +42,17 @@ button {
   text-align: right;
   padding: 10px;
   cursor: pointer;
+  color: #03045e;
 }
 
-.error {
+#error {
   color: #ee6055;
   width: 300px;
   font-size: 18px;
   text-align: center;
 }
 
-.copy {
+#copy {
   color: #709a0f;
   width: 300px;
   font-size: 18px;
