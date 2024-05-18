@@ -1,5 +1,3 @@
-// условие из задания nums1 === [1,2,2,3,5,6] никогда не вернет true даже при не строгом сравнении
-
 function merge(nums1, m, nums2, n) {
   let lastIndex = m + n - 1;
   let firstLength = m - 1;
