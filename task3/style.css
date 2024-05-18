@@ -1,0 +1,25 @@
+body {
+  background-color: #edf2fb;
+  font-family: "Roboto", sans-serif;
+  color: #03045e;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+input:last-child {
+  margin-bottom: 0;
+}
+
+.status {
+  margin-top: 20px;
+}
+
+form {
+  width: fit-content;
+  background-color: #e2eafc;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: right;
+}
